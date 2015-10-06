@@ -1,4 +1,4 @@
-# Tetris 
+# Tetris 0.0.1
 
 A simple Tetris clone written in Ruby
 
