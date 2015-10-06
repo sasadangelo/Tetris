@@ -20,7 +20,16 @@ Here the necessary steps to run Tetris. The assumption here is that you are usin
 3. Open a github shell
 4. Run the command: _cd c:\_
 5. Run the command: _git clone https://github.com/sasadangelo/Tetris.git_. The folder C:\Tetris will be created with source code inside.
+6. Open a dos shell
+7. Run the command: _cd c:\Tetris_
+8. Run the command: _gem install gosu_. This will install the Ruby game library gosu. If you got a SSL connection problem check the troubleshooting section.
+9. Run the command: _ruby TetrisGameWindow.rb_ to start the video game.
 
+## TroubleShooting
+
+If step 8 fails for a SSL connection problem this is a well known ruby issue. To solve it do the following:
+
+1. Download the following pem certificate
 
 CREDIT
 Thanks to Kamen Kitanova and LLexi Leon for their original work on Tetris.
