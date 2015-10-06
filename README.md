@@ -11,5 +11,16 @@ These two resources are:
 
 I studied these resources to a better understanding of Ruby language and later I tried to do some changes just to see what happened. These two resources gave me also the possibility to learn more on Game Programming. This repository contains the result of my study that I hope to document deeply. I hope this effort will be helpful for someone else interested in Game and Ruby programming.
 
+## Usage
+
+Here the necessary steps to run Tetris. The assumption here is that you are using Windows as operating system. For Linux and Mac the differences should me minimal.
+
+1. Download Github [from here](https://desktop.github.com/) and install it on your Windows.
+2. Download Ruby [from here](http://railsinstaller.org/en) and install it.
+3. Open a github shell
+4. Run the command: _cd c:\_
+5. Run the command: _git clone https://github.com/sasadangelo/Tetris.git_. The folder C:\Tetris will be created with source code inside.
+
+
 CREDIT
 Thanks to Kamen Kitanova and LLexi Leon for their original work on Tetris.
