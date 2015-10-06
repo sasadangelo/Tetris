@@ -1,5 +1,7 @@
 # Tetris 
 
+A simple Tetris clone written in Ruby
+
 ## Why another Tetris?
 In October 2015 I attended a Ruby course and I was looking for something interesting to implement with this language. Looking around the web I found two interesting resources in which a Tetris game is implemented using this language.
 
