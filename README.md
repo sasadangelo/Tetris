@@ -29,7 +29,10 @@ Here the necessary steps to run Tetris. The assumption here is that you are usin
 
 If step 8 fails for a SSL connection problem this is a well known ruby issue. To solve it do the following:
 
-1. Download the following pem certificate
+1. Download the following [pem certificate](https://raw.githubusercontent.com/rubygems/rubygems/master/lib/rubygems/ssl_certs/AddTrustExternalCARoot-2048.pem)
+2. Run the command: _gem which rubygems_. This command will print a path like this one <ruby install directory>/lib/ruby/2.1.0/rubygems.rb. You must store the pem certificate in <ruby install directory>/lib/ruby/2.1.0/rubygems/ssl_certs.
+3. Run again the command: _gem install gosu_.
 
-CREDIT
+## Credit
+
 Thanks to Kamen Kitanova and LLexi Leon for their original work on Tetris.
